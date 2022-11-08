@@ -1,0 +1,35 @@
+name: ForeverCMD
+main: forevercmd/main.php
+version: 1.0.0
+api: [4.0.0 - 5.0.0]
+author: GeistFan
+commands:
+  gm0:
+    description: Setzt dich in den Überlebensmodus!
+    usage: "/gm0"
+    permission: fcmd.switch
+    permission-message: "Dir fehlt die Berechtigung dazu!"
+  gm1:
+    description: Setzt dich in den Kreativmodus!
+    usage: "/gm1"
+    permission: fcmd.switch
+    permission-message: "Dir fehlt die Berechtigung dazu!"
+  gm2:
+    description: Setzt dich in den Abenteuermodus!
+    usage: "/gm2"
+    permission: fcmd.switch
+    permission-message: "Dir fehlt die Berechtigung dazu!"
+  gm3:
+    description: Setzt dich in den Zuschauermodus!
+    usage: "/gm3"
+    permission: fcmd.switch
+    permission-message: "Dir fehlt die Berechtigung dazu!"
+  isenabled:
+    description: Testet das Plugin
+    usage: "/isenabled"
+    permission: fcmd.switch
+    permission-message: "Dir fehlt die Berechtigung dazu!"
+permissions:
+  fcmd.switch:
+    description: ForeverCMD
+    default: false
